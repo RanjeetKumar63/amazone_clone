@@ -149,6 +149,7 @@ nav{
     flex-wrap: wrap;
     row-gap: 18px;
     /* column-gap: 2px; */
+    
     justify-content: space-between;
     margin: 20px 30px;
     transform: scale(9s #2f2f22);
@@ -284,3 +285,19 @@ footer{
     width: 65px;
 }
 
+@media (min-width:250px) {
+    .box-row{
+        flex-direction: row;
+
+        
+        
+    }
+}
+
+@media (max-width:360px) {
+    .box-row{
+        flex-direction: column;
+        
+        
+    }
+}
