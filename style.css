@@ -285,7 +285,7 @@ footer{
     width: 65px;
 }
 
-@media (min-width:400px) {
+@media (min-width:640px) {
     .box-row{
         flex-direction: row;
 
@@ -294,7 +294,7 @@ footer{
     }
 }
 
-@media (max-width:400px) {
+@media (max-width:420px) {
     .box-row{
         flex-direction: column;
         
